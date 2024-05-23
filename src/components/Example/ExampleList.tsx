@@ -3,9 +3,9 @@ import { Example } from "./Example";
 import styles from "./Example.module.css";
 
 const DEFAULT_EXAMPLES: string[] = [
-    "Quem é o autor do manual de matemática da 5ª classe?",
-    "Quais são os temas principais dos manuais de língua portuguesa?",
-    "Resuma 'O livro de pedra' e prepare um plano de aula para esse tema e um pequeno teste de avaliação dos conhecimentos para os alunos a ser aplicado no fim da aula?"
+    "Apresente-se",
+    "que manuais temas e subtemas estão disponíveis?",
+    "o que se estuda em Língua Portuguesa na 5ª Classe?"
 ];
 
 const GPT4V_EXAMPLES: string[] = [
