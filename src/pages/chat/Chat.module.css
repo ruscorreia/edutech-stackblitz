@@ -67,11 +67,11 @@
     margin-bottom: 20px;
     max-width: 80%;
     display: flex;
-    min-width: 500px;
+    min-width: 300px;
 }
 
 .chatMessageGptMinWidth {
-    max-width: 500px;
+    max-width: 300px;
     margin-bottom: 20px;
 }
 
