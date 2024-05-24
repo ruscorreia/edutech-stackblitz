@@ -4,8 +4,8 @@ import styles from "./Example.module.css";
 
 const DEFAULT_EXAMPLES: string[] = [
     "Apresente-se",
-    "que manuais temas e subtemas estão disponíveis?",
-    "o que se estuda em Língua Portuguesa na 5ª Classe?"
+    "O que são substantivos?",
+    "Escolha um tema do manual de língua portuguesa da 6ª Classe, resuma o mesmo e prepare um plano de aula e uma prova"
 ];
 
 const GPT4V_EXAMPLES: string[] = [
