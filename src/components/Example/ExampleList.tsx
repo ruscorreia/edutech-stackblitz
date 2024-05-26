@@ -5,13 +5,13 @@ import styles from "./Example.module.css";
 const DEFAULT_EXAMPLES: string[] = [
     "Apresente-se",
     "O que são substantivos?",
-    "Escolha um tema do manual de língua portuguesa da 6ª Classe, resuma o mesmo e prepare um plano de aula e uma prova"
+    "O que é a natureza? Em que manual escolar se encontra essa matéria? Faça o plano de aula e uma prova com a chave."
 ];
 
 const GPT4V_EXAMPLES: string[] = [
-    "Compare the impact of interest rates and GDP in financial markets.",
-    "What is the expected trend for the S&P 500 index over the next five years? Compare it to the past S&P 500 performance",
-    "Can you identify any correlation between oil prices and stock market trends?"
+    "Apresente-se",
+    "O que são substantivos?",
+    "O que é a natureza? Em que manual escolar se encontra essa matéria? Faça o plano de aula e uma prova com a chave."
 ];
 
 interface Props {
