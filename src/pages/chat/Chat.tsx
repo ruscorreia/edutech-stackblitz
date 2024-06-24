@@ -227,7 +227,7 @@ const Chat = () => {
                                 <>
                                     <UserChatMessage message={lastQuestionRef.current} />
                                     <div className={styles.chatMessageGptMinWidth}>
-                                        <AnswerError error={error.toString().replace("Internal Server Error","P.f. volte a tentar")} onRetry={() => makeApiRequest(lastQuestionRef.current)} />
+                                        <AnswerError error={error.toString().replace("Internal Server Error","P.f. volte a tentar ou reformule a questão")} onRetry={() => makeApiRequest(lastQuestionRef.current)} />
                                     </div>
                                 </>
                             ) : null}

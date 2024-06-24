@@ -14,11 +14,11 @@ export const AnswerError = ({ error, onRetry }: Props) => {
             <ErrorCircle24Regular aria-hidden="true" aria-label="Error icon" primaryFill="red" />
 
             <Stack.Item grow>
-                <p><strong>Ocorreu um erro:</strong></p>
+                <p><strong>Algo não deu certo:</strong></p>
                 <p className={styles.answerText}>{error}</p>
             </Stack.Item>
 
-            <PrimaryButton className={styles.retryButton} onClick={onRetry} text="Retry" />
+            <PrimaryButton className={styles.retryButton} onClick={onRetry} text="Retentar" />
         </Stack>
     );
 };
