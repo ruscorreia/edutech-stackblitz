@@ -1,1 +1,1 @@
-export const BACKEND_URI = 'https://dgkmtekdlu6vzoq-api.redwave-edfef0a8.eastus.azurecontainerapps.io';
+export const BACKEND_URI = 'https://edtcg6m5qsdexq2ee-api.delightfuldesert-c228e03c.eastus.azurecontainerapps.io';
